@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.right, .left, .half, .third, .two-third {
+  margin: 0.3em;
+  padding: 0.5em;
+}
+
+h1, h2, h3 {
+  font-family: "Fenix", Georgia, "Times New Roman", serif;
+  color: #425463;
+  padding: 0.5em;
+  margin: 0;
+}
+
+.right {
+  float: right;
+}
+
+.left, .half, .third, .two-third {
+  float: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.contain {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 32.19em) {
+  .half {
+    width: 47%;
+  }
+}
+
+@media screen and (min-width: 32.19em) {
+  .third {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 32.19em) {
+  .two-third {
+    width: 62%;
+  }
+}
+
+.card {
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  font-size: 1.4em;
+  background: #FFFFFF;
+  border: 1px solid #98012e;
+  margin: 1em 0.5em;
+  padding: 0.75em;
+  color: #98012e;
+}
+.card img {
+  display: block;
+  margin: 0 auto;
+}
+@media screen and (min-width: 45.88em) {
+  .card {
+    display: inline-block;
+    width: 40%;
+  }
+}
+@media screen and (min-width: 54.62em) {
+  .card {
+    width: 44%;
+  }
+}
+@media screen and (min-width: 76.38em) {
+  .card {
+    width: 29%;
+  }
+}
+@media screen and (min-width: 99.4em) {
+  .card {
+    width: 30%;
+  }
+}
+
+.small {
+  font-size: 0.9em;
+}
+
+.date {
+  font-size: 0.75em;
+  color: #999999;
+  font-style: italic;
+  padding-left: 1em;
+  display: inline-block;
+  text-align: right;
+}
+
+/** The Crux of the Matter **/
+body {
+  background: #eabe34;
+  font-family: "Open Sans Condensed", Futura, Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  text-align: center;
+  color: #98012e;
+}
+
+a {
+  color: #425463;
+  text-decoration: none;
+}
+a:hover {
+  color: #8ca1b2;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+form {
+  max-width: 80%;
+  margin: 1em auto;
+  text-align: left;
+  font-size: 1.25em;
+  padding: 1em;
+}
+form div label {
+  display: inline-block;
+  padding: 0.5em;
+}
+form input {
+  padding: 0.5em;
+  font-size: 1.4em;
+  color: #98012e;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.5em;
+}
+
+img, object, wmbed, video {
+  max-width: 100%;
+  height: auto;
+}
+
+p, li {
+  font-size: 1.25em;
+  padding: 0.5em;
+}
+
+.wrapper {
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* self-clear floats */
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clear {
+  clear: both;
+}

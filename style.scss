@@ -14,6 +14,8 @@ $h1-size: 3em;
 $color-dark: #98012e; 
 $color-light: #eabe34;
 $color-accent: #425463;
+$color-alt-dark: #98012e; 
+$color-alt-light: #eabe34;
 
 $max-width: 1700px;
 
@@ -40,12 +42,12 @@ $margin: 0;
  	} 
 
 .right{
-	@extend floaty-stuff;
+	@extend %floaty-stuff;
 	float: right;
 	}
 
 .left{
-	@extend floaty-stuff;
+	@extend %floaty-stuff;
 	float: left;
 	}
 
@@ -181,7 +183,7 @@ h1,h2,h3{
       font-size: $h1-size;
       }
 
-      $h1-size: $h1-size - 0.5;
+      $h1-size: $h1-size - 0.5 !global;
   }
 	
 	
